@@ -1,38 +1,34 @@
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
 }
 
-h1 {
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Montserrat';
-  font-weight: bold;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 1.5rem;
-}
+/* Containers */
 
-p {
-  color: #8f8f8f;
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -56,6 +52,17 @@ p {
   font-weight: 300;
 }
 
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%; 
+}
+
 /* Download Buttons */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -76,7 +83,6 @@ p {
 }
 
 .feat-item {
-  text-align: center;
   padding: 5%;
 }
 
@@ -84,15 +90,17 @@ p {
   color: #ff4c68;
 }
 
+.feat-title {
+  font-size: 1.5 rem;
+}
+
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -103,14 +111,14 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Press Section */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -122,11 +130,15 @@ p {
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 1028px) {
@@ -142,25 +154,11 @@ p {
 /* CTA Section */
 #cta {
   background-color: #ff4c68;
-  text-align: center;
   line-height: 2;
-  padding:7% 15%;
-}
-
-.bottom-text {
-  font-family: 'Montserrat';
-  color: #fff;
-  font-size: 3.5rem;
-  line-height: 1.5;
+  color: #fff
 }
 
 /* Footer Section */
-
-#footer {
-  text-align: center;
-  background-color: #fff;
-  padding: 7% 15%;
-}
 
 .social-media {
   margin: 20px 10px;
